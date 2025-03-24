@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #0056b3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+.nav-links li {
+    display: inline;
+}
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: url(./Alx-images/alx\ image4.webp) no-repeat center center/cover;
+    color: white;
+}
+.main {
+    color: white;
+}
+.hero h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.hero .btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #ff6f61;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.hero .btn:hover {
+    background: #e65c50;
+}
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.feature-box {
+    background: #C68EFD;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+}
+.testimonial {
+    background: #FED2E2;
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 60%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0056b3;
+    color: white;
+}
+.about-me {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+h1 {
+    color: #007bff;
+}
+p {
+    line-height: 1.6;
+}
+.highlight {
+    color: #28a745;
+    font-weight: bold;
+}
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 20px;
+}

@@ -1,0 +1,100 @@
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --text-color: #333;
+    --bg-color: #f4f4f4;
+}
+.home{
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-position: center;
+    animation: ChangeBackground 10s infinite;
+    height: 100vh;
+}
+@keyframes ChangeBackground {
+    0% { background-image: url(./alx\ images.webp);}
+    33% { background-image: url(./alx\ images\ 2.jpg);}
+    66% { background-image: url(./alx\ images.webp\ 1.jpg);}
+    100% { background-image: url(./alx\ image4.webp);}
+}
+nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    background-color: var(--primary-color);
+    margin: 0px;
+    align-content: center;
+}
+.home_0 {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+header {
+    margin: 0%;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bg-color);
+}
+.home_1 {
+    display: flex;
+    justify-content: space-around;
+}
+footer {
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    text-align: center;
+}
+.search {
+    width: 600px;
+}
+.login_image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.login_1 {
+    width: 100%;
+    height: auto;
+    display: block;
+    background-color: azure;
+    border-radius: 10px;
+    border: 2px solid black;
+    height: 700px;
+}
+
+.login_0 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg-color);
+    
+}
+.login_01 {
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 100px;
+    display: block;
+    align-self: center;
+    justify-content: center;
+}
+form{
+    width: 400px;
+}
+button{
+    background-color: brown;
+    border-radius: 10%;
+    display: block;
+}
